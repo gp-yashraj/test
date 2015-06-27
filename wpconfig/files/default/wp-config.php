@@ -15,8 +15,8 @@
  */
 
 define('WP_REDIS_HOST', 'shopyoke.pdmh93.0001.apse1.cache.amazonaws.com');
-define('WP_HOME','http://Shopyoke-639398727.ap-southeast-1.elb.amazonaws.com');
-define('WP_SITEURL','http://Shopyoke-639398727.ap-southeast-1.elb.amazonaws.com');
+define('WP_HOME','http://d2614h8k4tzh8c.cloudfront.net');
+define('WP_SITEURL','http://d2614h8k4tzh8c.cloudfront.net');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
