@@ -4,7 +4,7 @@
  *
  * This file has the following configurations: MySQL settings, Table Prefix,
  * Secret Keys, and ABSPATH. You can find more information by visiting
- * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.php}
+ * {@link http://codex.wordpress.org/Editing_wp-config.php Editing wp-config.ph$
  * Codex page. You can get the MySQL settings from your web host.
  *
  * This file is used by the wp-config.php creation script during the
@@ -14,9 +14,9 @@
  * @package WordPress
  */
 
-define('WP_REDIS_HOST', 'wordpress.uyzjrw.0001.usw2.cache.amazonaws.com');
-define('WP_HOME','http://52.27.70.211');
-define('WP_SITEURL','http://52.27.70.211');
+define('WP_REDIS_HOST', 'shopyoke.pdmh93.0001.apse1.cache.amazonaws.com');
+define('WP_HOME','http://54.169.90.80');
+define('WP_SITEURL','http://54.169.90.80');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -29,7 +29,7 @@ define('DB_USER', 'shopyoke');
 define('DB_PASSWORD', 'bhel1000');
 
 /** MySQL hostname */
-define('DB_HOST', 'wordpress.cha7mt450bvy.us-west-2.rds.amazonaws.com');
+define('DB_HOST', 'shopyoke.cqmi11qydhlb.ap-southeast-1.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -41,21 +41,20 @@ define('DB_COLLATE', '');
  * Authentication Unique Keys and Salts.
  *
  * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
- *
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress$
+ * You can change these at any point in time to invalidate all existing cookies. This will force al$
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'xgX<2]jmWnU~2MT14Q-PSsck~%#S_m&I}m07;!Hz5HC5Sr1YvkxqaI3AG^]YFHn6');
-define('SECURE_AUTH_KEY',  'v8fa+^M,22/dpzi-q.xdWncnB6|.%C8^%(xQuod-q`aNBht+6VI,k*B giDh%u&D');
-define('LOGGED_IN_KEY',    '#scs1xrx{oiBy9_Mr/pJr/]A *%np!*re<{qP(@ d+c-M2tpM.|=:0!]7YaTqe-!');
-define('NONCE_KEY',        'Ij`%zPzX%V]c!H;~E|x-Ox1EM/K`u14hJgz0D,-N]BS:;PF+DKXQ<1o}VH0:2Rf5');
-define('AUTH_SALT',        'y(L3yw2;Z>wK.]8As2r%~g^?(KA&=7l~y%tYtYqC2-CS8gTD<]D?{l#.lU-5oRgo');
-define('SECURE_AUTH_SALT', 'Y]k&J-o#xJuNp>tAs:8=o@O,z-ocePg^*6>;*{~X|_l!95i>~SP{7i/do?b*efJ`');
-define('LOGGED_IN_SALT',   'AK{ggRTb-zLcyX#.`~2-PLp3g^+%`+vNb]A<B`(6]>?=i]+`&u4CkbH~:&d gUX4');
-define('NONCE_SALT',       '#slieb@&9@~[6JXwW?_1VPtNDUB7mGA~/U)2TeC_@!G0xeql:C |)Q(n$* _|k%+');
+define('AUTH_KEY',         '[>;)2K@;VVoREuCdi23g#O[!of!URVqaM-T..;PqVJpe^Pbifr07<z~||eARxk2n');
+define('SECURE_AUTH_KEY',  '7TG_1;%n~Guz=6E=U,(tU8wC~c3Imtf+l3Z,/+Rc`_)Ky_.^*O7+TWW6.L#W1*h,');
+define('LOGGED_IN_KEY',    'Kny|)<]M.q]KY&Qs45 N:%^z{T_Z}lPy6lb6&H4)w.v{xvR`n]]+1k~G:cn*bO-=');
+define('NONCE_KEY',        'o!an/-=`m8ME45m;Z,tg*K:caQVyo0j{Ci=3Lf.DlkL1#n4u}(^k?4S#cyI}- Te');
+define('AUTH_SALT',        '7|=s&a1KjW8<w:1[v,Sbc{w=I4>p,>sK:T||>.t#3M:0{_w@R$X|oisyN{S{.0Rb');
+define('SECURE_AUTH_SALT', 'YfhkG<jG:F{f5P<wG^PP72;5x#}(w+n0g*IGN*4pI*+XYduw+|Nq>f@!O(8+gc/|');
+define('LOGGED_IN_SALT',   'Ot&{_:s:@QfZf/qMSnZy|mS@irf86{f&xTC(d^Q*L$( Ob]&ulNI%5;R]A|mt-<^');
+define('NONCE_SALT',       ';%0x;&GT%_IoB/oqyDFn}D^}FIx#v{g[!S5=.CE~lW/6vRGf~oG){>|5$c[1`YGY');
+
 
 /**#@-*/
 
@@ -84,3 +83,4 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
